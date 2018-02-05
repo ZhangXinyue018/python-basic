@@ -12,11 +12,6 @@ for item in list(range(1, 10)):
     print(item, end=" ")
 
 print()
-test_str = 'This is a test String'
-for item in test_str:
-    print(item, end=" ")
-
-print()
 test_dictionary = {
     'a': 'a_heihei',
     'b': 'b_heihei',
