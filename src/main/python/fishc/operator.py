@@ -9,5 +9,12 @@ print(3//2)
 print(5 % 3)
 print(-5 % 3)
 
-# **为幂运算
+# **为幂运算:比左侧优先级高，比右侧优先级低
 print(3 ** 2)
+print(-3 ** 2)
+print(3 ** 2 * 2)
+
+print(1 < 2 and 3 < 2)
+print(1 < 2 or 3 < 2)
+print(not 3 < 2)
+print(3 < 4 < 5)
