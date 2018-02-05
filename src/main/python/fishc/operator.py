@@ -18,3 +18,11 @@ print(1 < 2 and 3 < 2)
 print(1 < 2 or 3 < 2)
 print(not 3 < 2)
 print(3 < 4 < 5)
+
+x, y = 4, 5
+small = x if x < y else y
+print(small)
+
+# assert throws AssertionError if condition is false
+assert 4 > 3
+# assert 3 > 4
