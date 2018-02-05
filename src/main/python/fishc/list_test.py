@@ -30,6 +30,30 @@ print(test_list[::2])
 
 # 不同指向的拷贝
 test_list2 = test_list[:]
-test_list2.append('test')
-print(test_list2)
+test_list3 = test_list.copy()
+test_list2.append('test2')
+test_list3.append('test3')
+print('slide copy', test_list2)
+print('method copy', test_list3)
+print('original', test_list)
+
+# 列表可拼接，不推荐，推荐使用append，insert和extend
+test_list += ['g_lala', 'h_lala']
+print(test_list)
+
+print(test_list * 2)
+
+print('123' in test_list)
+print('g_lala' in test_list)
+test_list *= 2
+print(test_list.count('g_lala'))
+
+# 返回第一次出现的index
+print(test_list.index('g_lala'))
+
+test_list.reverse()
+print(test_list)
+
+test_list.sort(reverse=True)
+# test_list.sort()
 print(test_list)

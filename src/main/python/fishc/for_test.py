@@ -17,11 +17,6 @@ for item in test_str:
     print(item, end=" ")
 
 print()
-test_tuple = ('a_haha', 'b_haha', 'c_haha')
-for item in test_tuple:
-    print(item, end=" ")
-
-print()
 test_dictionary = {
     'a': 'a_heihei',
     'b': 'b_heihei',
