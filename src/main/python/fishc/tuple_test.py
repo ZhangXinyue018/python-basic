@@ -21,3 +21,8 @@ print(type(temp))
 temp = ('a_lala', 'b_lala', 'c_lala', 'e_lala')
 temp = temp[:3] + ('d_lala',) + temp[3:]
 print(temp)
+
+# 将可迭代对象转换成元组
+a = 'test string'
+a = tuple(a)
+print(a)
