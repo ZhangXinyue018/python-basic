@@ -1,0 +1,11 @@
+student_a: This year, we are experiencing a really cold winter
+student_b: But at least we can stay at home
+student_a: Yes, True
+==========================================================================================
+student_a: Luckily, we are from northern part
+student_b: Exactly! Southern part is suffering from a colder world
+student_b: You will never know cause you've never experienced
+==========================================================================================
+student_a: That's it! I'm going to have lunch
+student_b: All right! Enjoy! Bye
+student_a: Bye
