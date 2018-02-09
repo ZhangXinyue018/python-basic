@@ -19,3 +19,6 @@ test_dictionary = {
 }
 for item_key, item_value in test_dictionary.items():
     print(item_key, ":", item_value, end=" ")
+else:
+    print()
+    print('end')
