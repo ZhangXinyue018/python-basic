@@ -58,3 +58,20 @@ print('------------------------------------dory test----------------------------
 dory = Dory()
 dory.move()
 dory.printSelf()
+
+print('------------------------------------composition test----------------------------------------------------')
+class Turtle:
+    def __init__(self, x):
+        self.num = x
+class GoldenFish:
+    def __init__(self, x):
+        self.num = x
+class Pool:
+    def __init__(self, x, y):
+        self.turtle = Turtle(x)
+        self.goldenFish = GoldenFish(y)
+    def printNum(self):
+        print('In total, turtle number:', self.turtle.num, ' golden fish number:', self.goldenFish.num)
+
+pool = Pool(5, 3)
+pool.printNum()
